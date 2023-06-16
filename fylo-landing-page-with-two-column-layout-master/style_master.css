@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+header,
+nav {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 35px;
+}
+.li-style {
+  list-style-type: none;
+  display: flex;
+}
+.li-style li {
+  margin: auto 30px;
+}
+.li-style li a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  height: 40px;
+}
+.page-1 {
+  padding: 60px;
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-between;
+  /* background-image: url(./images/illustration-1.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right; */
+  height: 450px;
+  /* margin-right:80px; */
+  height: auto !important;
+}
+.side-image img {
+  top: 50%;
+  left: 50%;
+  width: 100% !important;
+}
+.input-style {
+  height: 35px;
+  width: 250px;
+}
+.button-style {
+  height: 35px;
+  width: 160px;
+  border: 0;
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.button-style:hover {
+  background-color: #6b9df6;
+}
+.page-1 div {
+  width: 500px;
+  margin-right: 70px;
+}
+span {
+  font-size: 1.2rem;
+  line-height: 5px;
+  font-weight: bold;
+  position: relative;
+  color: hsl(170, 45%, 43%);
+}
+.h span:hover {
+  color: #76e0cc;
+}
+.h span:hover::before {
+  background-color: #76e0cc;
+}
+.h span img:hover {
+  filter: brightness(1.5);
+}
+
+span::before {
+  content: "";
+  bottom: -3px;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: hsl(170, 45%, 43%);
+}
+.card {
+  padding: 27px 48px;
+  margin-top: 1em;
+  background-color: white;
+  box-shadow: 0 0 11px 0px gray;
+}
+.kyle-burton img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+}
+.kyle-burton div {
+  margin: 5px !important;
+  width: auto !important;
+}
+.kyle-burton {
+  display: flex;
+}
+.name,
+.job {
+  line-height: 1px;
+  font-size: 0.9rem;
+}
+.job {
+  font-style: normal;
+  font-size: 0.7rem;
+  color: gray;
+}
+.footer-1 {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+  flex-wrap: wrap;
+}
+.footer-1 div {
+  width: 500px;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  margin: 10px;
+}
+.footer-2 {
+  padding: 100px 0px;
+  background-color: hsl(243, 87%, 12%);
+}
+.footer-2 .ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  /* padding-right: 363px; */
+}
+.footer-2 ul {
+  list-style-type: none;
+  margin: 10px 70px;
+}
+.footer-2 li {
+  margin: 7px;
+  font-size: 0.9em;
+}
+.footer-2 li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-2 li a:hover {
+  color: #6d7bc2;
+}
+.social-accounts {
+  display: flex;
+}
+.down-logo {
+  height: 40px;
+  margin-left: 115px;
+}
+a {
+  text-decoration: none;
+}
+.social-accounts div {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 5px;
+}
+.social-accounts div:hover {
+  border-color: #6d7bc2;
+}
+footer {
+  background-color: hsl(243, 87%, 12%);
+}
